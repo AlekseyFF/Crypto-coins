@@ -15,39 +15,40 @@ import Foundation
  
  JSON Response:
  {
+ {
      "id": "bitcoin",
      "symbol": "btc",
      "name": "Bitcoin",
      "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
-     "current_price": 58908,
-     "market_cap": 1100013258170,
+     "current_price": 20143,
+     "market_cap": 384177458124,
      "market_cap_rank": 1,
-     "fully_diluted_valuation": 1235028318246,
-     "total_volume": 69075964521,
-     "high_24h": 59504,
-     "low_24h": 57672,
-     "price_change_24h": 808.94,
-     "price_change_percentage_24h": 1.39234,
-     "market_cap_change_24h": 13240944103,
-     "market_cap_change_percentage_24h": 1.21837,
-     "circulating_supply": 18704250,
+     "fully_diluted_valuation": 422691319917,
+     "total_volume": 23502355206,
+     "high_24h": 20630,
+     "low_24h": 19400.68,
+     "price_change_24h": 734.38,
+     "price_change_percentage_24h": 3.78378,
+     "market_cap_change_24h": 14347305006,
+     "market_cap_change_percentage_24h": 3.87943,
+     "circulating_supply": 19086568,
      "total_supply": 21000000,
      "max_supply": 21000000,
-     "ath": 64805,
-     "ath_change_percentage": -9.24909,
-     "ath_date": "2021-04-14T11:54:46.763Z",
+     "ath": 69045,
+     "ath_change_percentage": -70.83523,
+     "ath_date": "2021-11-10T14:24:11.849Z",
      "atl": 67.81,
-     "atl_change_percentage": 86630.1867,
+     "atl_change_percentage": 29596.27384,
      "atl_date": "2013-07-06T00:00:00.000Z",
      "roi": null,
-     "last_updated": "2021-05-09T04:06:09.766Z",
+     "last_updated": "2022-07-06T15:20:42.193Z",
      "sparkline_in_7d": {
        "price": [
-         57812.96915967891,
-         57504.33531773738,
+         20095.142667137392,
+         20021.52174709983,
        ]
      },
-     "price_change_percentage_24h_in_currency": 1.3923423473152687
+     "price_change_percentage_24h_in_currency": 3.7837760986349562
    }
  
  */
