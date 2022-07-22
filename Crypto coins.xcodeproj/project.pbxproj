@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1C2BEA288AE55800BA7197 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C2BE9288AE55800BA7197 /* LocalFileManager.swift */; };
 		6D2E57322875E85800F24FD7 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2E57312875E85800F24FD7 /* CoinModel.swift */; };
 		6D3B4D46287858DE00545E15 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B4D45287858DE00545E15 /* CoinRowView.swift */; };
 		6D3B4D482878593F00545E15 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B4D472878593F00545E15 /* PreviewProvider.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D1C2BE9288AE55800BA7197 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		6D2E57312875E85800F24FD7 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		6D3B4D45287858DE00545E15 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		6D3B4D472878593F00545E15 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				6DC42C6428857E6D001F9FF9 /* NetworkingManager.swift */,
+				6D1C2BE9288AE55800BA7197 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				6D3B4D46287858DE00545E15 /* CoinRowView.swift in Sources */,
 				6D4EE705287DCEBF002616A6 /* HomeViewModel.swift in Sources */,
 				6DA52DE4286F1EB600AE38BA /* ContentView.swift in Sources */,
+				6D1C2BEA288AE55800BA7197 /* LocalFileManager.swift in Sources */,
 				6DA52DF9286F229C00AE38BA /* HomeView.swift in Sources */,
 				6DAD06B22888164100AA9702 /* CoinImageView.swift in Sources */,
 				6DA52DE2286F1EB600AE38BA /* Crypto_coinsApp.swift in Sources */,
