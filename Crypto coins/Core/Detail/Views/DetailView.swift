@@ -51,7 +51,6 @@ struct DetailView: View {
                 }
                 .padding()
             }
-            
         }
         .navigationTitle(vm.coin.name)
         .toolbar {

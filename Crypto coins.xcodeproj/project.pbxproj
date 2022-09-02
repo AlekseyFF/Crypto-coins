@@ -17,6 +17,7 @@
 		6D3B4D4A28786FE000545E15 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B4D4928786FE000545E15 /* Double.swift */; };
 		6D3DAA8A28AA92D800ACAC6F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DAA8928AA92D800ACAC6F /* HapticManager.swift */; };
 		6D4AB12E28C231670089BA58 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AB12D28C231670089BA58 /* String.swift */; };
+		6D4AB13228C236FF0089BA58 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AB13128C236FF0089BA58 /* SettingsView.swift */; };
 		6D4EE705287DCEBF002616A6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EE704287DCEBF002616A6 /* HomeViewModel.swift */; };
 		6D855C6928998091007A52FD /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D855C6828998091007A52FD /* MarketDataModel.swift */; };
 		6D855C6B2899868E007A52FD /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D855C6A2899868E007A52FD /* MarketDataService.swift */; };
@@ -59,6 +60,7 @@
 		6D3B4D4928786FE000545E15 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		6D3DAA8928AA92D800ACAC6F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		6D4AB12D28C231670089BA58 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6D4AB13128C236FF0089BA58 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		6D4EE704287DCEBF002616A6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6D855C6828998091007A52FD /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		6D855C6A2899868E007A52FD /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
@@ -112,6 +114,22 @@
 				6DDCDF1528A1748600656F6C /* PortfolioContainer.xcdatamodeld */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6D4AB12F28C236D50089BA58 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6D4AB13028C236E80089BA58 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6D4AB13028C236E80089BA58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D4AB13128C236FF0089BA58 /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6DA52DD5286F1EB600AE38BA = {
@@ -179,9 +197,10 @@
 		6DA52DF5286F226900AE38BA /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				6DAD2CCF28B0F6C5001C66DA /* Detail */,
 				6DA52DFA286F236500AE38BA /* Components */,
+				6DAD2CCF28B0F6C5001C66DA /* Detail */,
 				6DA52DF4286F225800AE38BA /* Home */,
+				6D4AB12F28C236D50089BA58 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -391,6 +410,7 @@
 				6DFEE1B628B3D5EA0019F082 /* CoinDetailDataService.swift in Sources */,
 				6DFEE1B428B3D5BD0019F082 /* DetailViewModel.swift in Sources */,
 				6D2E57322875E85800F24FD7 /* CoinModel.swift in Sources */,
+				6D4AB13228C236FF0089BA58 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
