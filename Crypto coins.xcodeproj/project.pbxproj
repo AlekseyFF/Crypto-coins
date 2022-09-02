@@ -16,6 +16,7 @@
 		6D3B4D482878593F00545E15 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B4D472878593F00545E15 /* PreviewProvider.swift */; };
 		6D3B4D4A28786FE000545E15 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B4D4928786FE000545E15 /* Double.swift */; };
 		6D3DAA8A28AA92D800ACAC6F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DAA8928AA92D800ACAC6F /* HapticManager.swift */; };
+		6D4AB12E28C231670089BA58 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AB12D28C231670089BA58 /* String.swift */; };
 		6D4EE705287DCEBF002616A6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EE704287DCEBF002616A6 /* HomeViewModel.swift */; };
 		6D855C6928998091007A52FD /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D855C6828998091007A52FD /* MarketDataModel.swift */; };
 		6D855C6B2899868E007A52FD /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D855C6A2899868E007A52FD /* MarketDataService.swift */; };
@@ -57,6 +58,7 @@
 		6D3B4D472878593F00545E15 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		6D3B4D4928786FE000545E15 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		6D3DAA8928AA92D800ACAC6F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		6D4AB12D28C231670089BA58 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		6D4EE704287DCEBF002616A6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6D855C6828998091007A52FD /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		6D855C6A2899868E007A52FD /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				6D3B4D4928786FE000545E15 /* Double.swift */,
 				6D950620288F0F4D009C7DC5 /* UIApplication.swift */,
 				6DA8F8A928BF4B1B00897C2D /* Date.swift */,
+				6D4AB12D28C231670089BA58 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				6D8F70C82892C07A00BD016B /* HomeStatsView.swift in Sources */,
 				6D855C6B2899868E007A52FD /* MarketDataService.swift in Sources */,
 				6DA52DFF286F26CB00AE38BA /* CircleButtonAnimationView.swift in Sources */,
+				6D4AB12E28C231670089BA58 /* String.swift in Sources */,
 				6DAD06B6288818FF00AA9702 /* CoinImageViewModel.swift in Sources */,
 				6D3B4D482878593F00545E15 /* PreviewProvider.swift in Sources */,
 				6D129688289AD7D2005033F2 /* PortfolioView.swift in Sources */,
